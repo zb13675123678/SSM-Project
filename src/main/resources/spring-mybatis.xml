@@ -23,10 +23,10 @@
         <property name="username" value="${aaaa}" />
         <property name="password" value="${bbbb}" />
     </bean>
-
+    <!--配置mybatis的事务前提-->
     <bean id="sf" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="typeAliasesPackage" value="com.qfedu.entity" />
-        <property name="mapperLocations" value="classpath:com/qfedu/mapper/*Dao.xml" />
+        <property name="mapperLocations" value="classpath:com/qfedu/dao/*Dao.xml" />
         <property name="dataSource" ref="ds"></property>
         <property name="configLocation" value="classpath:mybatis-config.xml" />
     </bean>

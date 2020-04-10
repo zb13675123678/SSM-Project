@@ -1,0 +1,18 @@
+2020-04-10 14:09:27-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users limit ?, ? 
+2020-04-10 14:09:27-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0(Integer), 100(Integer)
+2020-04-10 14:09:27-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 0
+2020-04-10 14:10:48-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users limit ?, ? 
+2020-04-10 14:10:48-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0(Integer), 100(Integer)
+2020-04-10 14:10:48-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 16
+2020-04-10 14:14:09-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users where user_id = ? 
+2020-04-10 14:14:09-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 20190514112608(String)
+2020-04-10 14:14:09-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-10 14:22:15-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users where user_id = ? 
+2020-04-10 14:22:16-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 20190514112608(String)
+2020-04-10 14:22:16-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-10 14:26:31-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users limit ?, ? 
+2020-04-10 14:26:31-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0(Integer), 15(Integer)
+2020-04-10 14:26:32-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 15
+2020-04-10 14:37:51-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users limit ?, ? 
+2020-04-10 14:37:51-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0(Integer), 5(Integer)
+2020-04-10 14:37:51-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 5

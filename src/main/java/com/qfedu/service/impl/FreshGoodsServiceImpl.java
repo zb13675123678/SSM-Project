@@ -38,8 +38,8 @@ public class FreshGoodsServiceImpl implements FreshGoodsService {
      * @return 对象列表
      */
     @Override
-    public List<FreshGoods> queryAllByLimit(int offset, int limit) {
-        return this.freshGoodsDao.queryAllByLimit(offset, limit);
+    public List<FreshGoods> queryAllByLimit(int gtid,int offset, int limit) {
+        return this.freshGoodsDao.queryAllByLimit(gtid,offset, limit);
     }
 
     /**

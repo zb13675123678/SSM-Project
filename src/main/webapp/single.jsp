@@ -423,9 +423,9 @@
                     <label>不可退货的。</label>
                 </p>
             </div>
-            <div class="occasion-cart">
+            <%--<div class="occasion-cart">
                 <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                    <form action="#" method="post">
+                    <form action="mycart" method="post">
                         <fieldset>
                             <input type="hidden" name="cmd" value="_cart"/>
                             <input type="hidden" name="add" value="1"/>
@@ -440,9 +440,16 @@
                         </fieldset>
                     </form>
                 </div>
-
+            </div>--%>
+            <%--进入购物车--%>
+            <div class="occasion-cart">
+                <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
+                    <form action="mycart" method="post">
+                        <input type="hidden" name="fdid" value="${freshGoods.fdid}"/>
+                        <input type="submit" value="add to cart" class="button"/>
+                    </form>
+                </div>
             </div>
-
         </div>
         <div class="clearfix"></div>
     </div>

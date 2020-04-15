@@ -22,12 +22,12 @@ public interface FreshGoodsDao {
 
     /**
      * 查询指定行数据
-     *
+     * @param gtid  查询商品类型
      * @param offset 查询起始位置
      * @param limit 查询条数
      * @return 对象列表
      */
-    List<FreshGoods> queryAllByLimit(@Param("offset") int offset, @Param("limit") int limit);
+    List<FreshGoods> queryAllByLimit(@Param("gtid") int gtid,@Param("offset") int offset, @Param("limit") int limit);
 
 
     /**

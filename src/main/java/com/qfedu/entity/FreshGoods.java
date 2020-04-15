@@ -152,4 +152,23 @@ public class FreshGoods implements Serializable {
         this.attr2 = attr2;
     }
 
+    @Override
+    public String toString() {
+        return "FreshGoods{" +
+                "fdid='" + fdid + '\'' +
+                ", goodName='" + goodName + '\'' +
+                ", gtid=" + gtid +
+                ", img='" + img + '\'' +
+                ", price=" + price +
+                ", discount=" + discount +
+                ", preference=" + preference +
+                ", ifPromotion=" + ifPromotion +
+                ", lastSales=" + lastSales +
+                ", currentSales=" + currentSales +
+                ", countSales=" + countSales +
+                ", summery='" + summery + '\'' +
+                ", attr1='" + attr1 + '\'' +
+                ", attr2='" + attr2 + '\'' +
+                '}';
+    }
 }

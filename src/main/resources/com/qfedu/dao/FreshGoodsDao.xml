@@ -32,6 +32,7 @@
         select
           fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2
         from supermarket.fresh_goods
+        where #{gtid}
         limit #{offset}, #{limit}
     </select>
 

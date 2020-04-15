@@ -5,6 +5,7 @@ import com.qfedu.service.GoodTypeService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * (GoodType)表控制层
@@ -13,7 +14,6 @@ import javax.annotation.Resource;
  * @since 2020-04-10 13:49:07
  */
 @RestController
-@RequestMapping("goodType")
 public class GoodTypeController {
     /**
      * 服务对象
@@ -27,9 +27,15 @@ public class GoodTypeController {
      * @param id 主键
      * @return 单条数据
      */
-    @GetMapping("selectOne")
+   // @GetMapping("selectOne")
     public GoodType selectOne(Integer id) {
         return this.goodTypeService.queryById(id);
     }
 
+
+    @GetMapping("getAllGoodsTypeByPage")
+    public List<GoodType> getAllByPage(){
+
+        return goodTypeService.queryAllByLimit(0,100);
+    }
 }

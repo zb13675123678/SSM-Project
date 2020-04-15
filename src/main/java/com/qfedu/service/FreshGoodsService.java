@@ -26,7 +26,7 @@ public interface FreshGoodsService {
      * @param limit 查询条数
      * @return 对象列表
      */
-    List<FreshGoods> queryAllByLimit(int offset, int limit);
+    List<FreshGoods> queryAllByLimit(int gtid,int offset, int limit);
 
     /**
      * 新增数据

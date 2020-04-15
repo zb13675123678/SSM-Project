@@ -1,18 +1,30 @@
-2020-04-10 14:09:27-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users limit ?, ? 
-2020-04-10 14:09:27-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0(Integer), 100(Integer)
-2020-04-10 14:09:27-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 0
-2020-04-10 14:10:48-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users limit ?, ? 
-2020-04-10 14:10:48-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0(Integer), 100(Integer)
-2020-04-10 14:10:48-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 16
-2020-04-10 14:14:09-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users where user_id = ? 
-2020-04-10 14:14:09-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 20190514112608(String)
-2020-04-10 14:14:09-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
-2020-04-10 14:22:15-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users where user_id = ? 
-2020-04-10 14:22:16-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 20190514112608(String)
-2020-04-10 14:22:16-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
-2020-04-10 14:26:31-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users limit ?, ? 
-2020-04-10 14:26:31-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0(Integer), 15(Integer)
-2020-04-10 14:26:32-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 15
-2020-04-10 14:37:51-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select user_id, user_name, password, email, tel, level, integral, if_new from supermarket.users limit ?, ? 
-2020-04-10 14:37:51-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0(Integer), 5(Integer)
-2020-04-10 14:37:51-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 5
+2020-04-14 01:12:08-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2 from supermarket.fresh_goods where fdid = ? 
+2020-04-14 01:12:08-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 050b8dcc764411e9ba5954e1ade9802f(String)
+2020-04-14 01:12:08-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-14 01:24:16-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2 from supermarket.fresh_goods where fdid = ? 
+2020-04-14 01:24:16-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 050b8dcc764411e9ba5954e1ade9802f(String)
+2020-04-14 01:24:16-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-14 01:24:17-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2 from supermarket.fresh_goods where fdid = ? 
+2020-04-14 01:24:17-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 050b8dcc764411e9ba5954e1ade9802f(String)
+2020-04-14 01:24:17-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-14 04:01:15-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2 from supermarket.fresh_goods where fdid = ? 
+2020-04-14 04:01:16-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0503a00e764411e9ba5954e1ade9802f(String)
+2020-04-14 04:01:16-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-14 04:01:26-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2 from supermarket.fresh_goods where fdid = ? 
+2020-04-14 04:01:26-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0503a00e764411e9ba5954e1ade9802f(String)
+2020-04-14 04:01:26-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-14 04:01:42-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2 from supermarket.fresh_goods where fdid = ? 
+2020-04-14 04:01:42-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 050b8dcc764411e9ba5954e1ade9802f(String)
+2020-04-14 04:01:42-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-14 04:01:45-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2 from supermarket.fresh_goods where fdid = ? 
+2020-04-14 04:01:45-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 050b8dcc764411e9ba5954e1ade9802f(String)
+2020-04-14 04:01:45-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-14 04:01:59-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2 from supermarket.fresh_goods where fdid = ? 
+2020-04-14 04:01:59-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 0503a00e764411e9ba5954e1ade9802f(String)
+2020-04-14 04:01:59-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1
+2020-04-14 21:41:01-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select fdid, good_name, gtid, img, price, discount, preference, if_promotion, last_sales, current_sales, count_sales, summery, attr1, attr2 from supermarket.fresh_goods where ? limit ?, ? 
+2020-04-14 21:41:02-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 1(Integer), 0(Integer), 200(Integer)
+2020-04-14 21:41:02-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 185
+2020-04-14 21:41:02-[DEBUG BaseJdbcLogger.java:159]  ==>  Preparing: select gtid, gtname from supermarket.good_type where gtid = ? 
+2020-04-14 21:41:02-[DEBUG BaseJdbcLogger.java:159]  ==> Parameters: 1(Integer)
+2020-04-14 21:41:02-[DEBUG BaseJdbcLogger.java:159]  <==      Total: 1

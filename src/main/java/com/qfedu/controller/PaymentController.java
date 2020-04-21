@@ -23,6 +23,13 @@ public class PaymentController {
     @Resource
     private FreshGoodsService freshGoodsService;
 
+    /**
+     * 订单详情的展示：
+     *  选中购物车商品购买
+     * @param fds
+     * @param session
+     * @return
+     */
     @PostMapping("payment")
     public  String payment(@RequestParam(value = "one",defaultValue = "") List<String> fds, HttpSession session){
 
